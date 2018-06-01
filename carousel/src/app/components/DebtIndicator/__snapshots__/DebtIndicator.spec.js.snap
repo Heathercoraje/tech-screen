@@ -3,6 +3,12 @@
 exports[`DebtIndicator renders correctly 1`] = `
 <div
   className="container-circle"
+  style={
+    Object {
+      "height": undefined,
+      "width": undefined,
+    }
+  }
 >
   <div
     className="container-text"

@@ -1,24 +1,22 @@
-const merge = require('webpack-merge');
+const merge = require("webpack-merge");
 // const nodemon = require('nodemon');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
-process.env.NODE_ENV = 'development';
+process.env.NODE_ENV = "development";
 
-require('./src/config/environment');
-const baseConfig = require('./webpack.common');
+require("./src/config/environment");
+const baseConfig = require("./webpack.common");
 // const nodemonConfig = require('./nodemon.json');
-const { DIST } = require('./src/config/paths');
+const { DIST } = require("./src/config/paths");
 
 module.exports = merge(baseConfig, {
-  mode: 'development',
+  mode: "development",
   output: {
     path: DIST,
-    filename: '[name].js',
-    publicPath: 'static/',
+    filename: "[name].js",
+    publicPath: "static/"
   },
-  plugins: [
-    new ExtractTextPlugin('[name].css'),
-  ],
+  plugins: [new ExtractTextPlugin("[name].css")]
   // devServer: {
   //   port: 3000,
   //   publicPath: baseConfig.output.publicPath,

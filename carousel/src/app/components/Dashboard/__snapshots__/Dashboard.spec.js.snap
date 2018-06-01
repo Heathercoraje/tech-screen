@@ -5,8 +5,8 @@ exports[`Dashboard should correctly 1`] = `
   className="dashboard"
 >
   <Carousel
-    debt={24682}
-    score={514}
+    debt={null}
+    score={null}
   />
 </div>
 `;
