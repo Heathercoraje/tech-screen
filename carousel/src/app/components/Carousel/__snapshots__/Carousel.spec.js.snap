@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel renders should render correctly 1`] = `
+<div
+  className="loadingIndicator"
+>
+  <p>
+    Loading . . . .
+  </p>
+</div>
+`;

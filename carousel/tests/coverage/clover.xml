@@ -1,93 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1527632326639" clover="3.2.0">
-  <project timestamp="1527632326639" name="All files">
-    <metrics statements="105" coveredstatements="73" conditionals="72" coveredconditionals="49" methods="35" coveredmethods="18" elements="212" coveredelements="140" complexity="0" loc="105" ncloc="105" packages="9" files="11" classes="11">
-      <package name="app">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <file name="creditReport.js" path="/Users/heathercoraje/Documents/interview/tech-screen/carousel/src/app/creditReport.js">
-          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-          <line num="1" count="1" type="stmt"/>
-          <line num="45" count="1" type="stmt"/>
-        </file>
-      </package>
+<coverage generated="1527834482666" clover="3.2.0">
+  <project timestamp="1527834482666" name="All files">
+    <metrics statements="123" coveredstatements="102" conditionals="84" coveredconditionals="55" methods="42" coveredmethods="31" elements="249" coveredelements="188" complexity="0" loc="123" ncloc="123" packages="8" files="11" classes="11">
       <package name="app.components.Arc">
-        <metrics statements="12" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <metrics statements="14" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="7"/>
         <file name="Arc.jsx" path="/Users/heathercoraje/Documents/interview/tech-screen/carousel/src/app/components/Arc/Arc.jsx">
-          <metrics statements="12" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0"/>
-          <line num="8" count="0" type="stmt"/>
-          <line num="13" count="0" type="stmt"/>
-          <line num="14" count="0" type="stmt"/>
-          <line num="18" count="0" type="stmt"/>
-          <line num="20" count="0" type="stmt"/>
-          <line num="31" count="0" type="stmt"/>
-          <line num="32" count="0" type="stmt"/>
-          <line num="33" count="0" type="stmt"/>
-          <line num="41" count="0" type="stmt"/>
-          <line num="42" count="0" type="stmt"/>
-          <line num="51" count="0" type="stmt"/>
-          <line num="65" count="0" type="stmt"/>
+          <metrics statements="14" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="7"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="35" count="2" type="stmt"/>
+          <line num="36" count="2" type="stmt"/>
+          <line num="44" count="1" type="stmt"/>
+          <line num="52" count="1" type="stmt"/>
+          <line num="53" count="1" type="stmt"/>
+          <line num="61" count="1" type="stmt"/>
         </file>
       </package>
       <package name="app.components.Carousel">
-        <metrics statements="9" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <metrics statements="13" coveredstatements="10" conditionals="6" coveredconditionals="4" methods="5" coveredmethods="3"/>
         <file name="Carousel.jsx" path="/Users/heathercoraje/Documents/interview/tech-screen/carousel/src/app/components/Carousel/Carousel.jsx">
-          <metrics statements="9" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
-          <line num="13" count="0" type="stmt"/>
-          <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
-          <line num="17" count="0" type="stmt"/>
-          <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
-          <line num="21" count="0" type="stmt"/>
-          <line num="22" count="0" type="stmt"/>
-          <line num="25" count="0" type="stmt"/>
-          <line num="26" count="0" type="stmt"/>
-          <line num="27" count="0" type="stmt"/>
+          <metrics statements="13" coveredstatements="10" conditionals="6" coveredconditionals="4" methods="5" coveredmethods="3"/>
+          <line num="13" count="12" type="stmt"/>
+          <line num="14" count="12" type="stmt"/>
+          <line num="15" count="12" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="26" count="14" type="cond" truecount="2" falsecount="0"/>
+          <line num="27" count="12" type="stmt"/>
+          <line num="28" count="2" type="stmt"/>
+          <line num="31" count="28" type="stmt"/>
+          <line num="32" count="28" type="cond" truecount="2" falsecount="0"/>
+          <line num="33" count="14" type="stmt"/>
+          <line num="39" count="14" type="stmt"/>
         </file>
       </package>
       <package name="app.components.Dashboard">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="3"/>
         <file name="Dashboard.jsx" path="/Users/heathercoraje/Documents/interview/tech-screen/carousel/src/app/components/Dashboard/Dashboard.jsx">
-          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-          <line num="9" count="1" type="stmt"/>
-          <line num="13" count="1" type="stmt"/>
+          <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="3"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="28" count="1" type="stmt"/>
         </file>
       </package>
       <package name="app.components.DebtIndicator">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <file name="DebtIndicator.jsx" path="/Users/heathercoraje/Documents/interview/tech-screen/carousel/src/app/components/DebtIndicator/DebtIndicator.jsx">
           <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-          <line num="4" count="2" type="stmt"/>
-          <line num="13" count="2" type="stmt"/>
-          <line num="23" count="2" type="stmt"/>
-          <line num="24" count="1" type="stmt"/>
+          <line num="4" count="3" type="stmt"/>
+          <line num="16" count="3" type="stmt"/>
+          <line num="31" count="3" type="stmt"/>
+          <line num="32" count="1" type="stmt"/>
         </file>
       </package>
       <package name="app.components.ScoreIndicator">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <file name="ScoreIndicator.jsx" path="/Users/heathercoraje/Documents/interview/tech-screen/carousel/src/app/components/ScoreIndicator/ScoreIndicator.jsx">
-          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-          <line num="4" count="2" type="stmt"/>
-          <line num="16" count="2" type="stmt"/>
-          <line num="26" count="2" type="stmt"/>
-          <line num="27" count="1" type="stmt"/>
+          <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="4" count="3" type="stmt"/>
+          <line num="16" count="3" type="stmt"/>
+          <line num="30" count="3" type="stmt"/>
+          <line num="31" count="1" type="stmt"/>
+          <line num="32" count="1" type="stmt"/>
         </file>
       </package>
       <package name="app.polyfills">
         <metrics statements="9" coveredstatements="7" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="0"/>
         <file name="node-fetch.js" path="/Users/heathercoraje/Documents/interview/tech-screen/carousel/src/app/polyfills/node-fetch.js">
           <metrics statements="9" coveredstatements="7" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="0"/>
-          <line num="1" count="5" type="stmt"/>
-          <line num="3" count="5" type="stmt"/>
+          <line num="1" count="7" type="stmt"/>
+          <line num="3" count="7" type="stmt"/>
           <line num="4" count="0" type="cond" truecount="0" falsecount="2"/>
           <line num="7" count="0" type="stmt"/>
-          <line num="10" count="5" type="cond" truecount="1" falsecount="1"/>
-          <line num="11" count="5" type="stmt"/>
-          <line num="12" count="5" type="stmt"/>
-          <line num="13" count="5" type="stmt"/>
-          <line num="14" count="5" type="stmt"/>
+          <line num="10" count="7" type="cond" truecount="1" falsecount="1"/>
+          <line num="11" count="7" type="stmt"/>
+          <line num="12" count="7" type="stmt"/>
+          <line num="13" count="7" type="stmt"/>
+          <line num="14" count="7" type="stmt"/>
         </file>
       </package>
       <package name="app.utils">
-        <metrics statements="46" coveredstatements="38" conditionals="48" coveredconditionals="41" methods="19" coveredmethods="14"/>
+        <metrics statements="55" coveredstatements="43" conditionals="58" coveredconditionals="43" methods="20" coveredmethods="15"/>
         <file name="bem.js" path="/Users/heathercoraje/Documents/interview/tech-screen/carousel/src/app/utils/bem.js">
           <metrics statements="15" coveredstatements="15" conditionals="28" coveredconditionals="27" methods="5" coveredmethods="5"/>
           <line num="2" count="36" type="cond" truecount="2" falsecount="0"/>
@@ -106,10 +109,22 @@
           <line num="23" count="28" type="stmt"/>
           <line num="26" count="1" type="stmt"/>
         </file>
+        <file name="calculateSize.js" path="/Users/heathercoraje/Documents/interview/tech-screen/carousel/src/app/utils/calculateSize.js">
+          <metrics statements="9" coveredstatements="5" conditionals="10" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="3" count="2" type="stmt"/>
+          <line num="5" count="12" type="cond" truecount="1" falsecount="1"/>
+          <line num="6" count="12" type="cond" truecount="1" falsecount="1"/>
+          <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="12" type="stmt"/>
+          <line num="14" count="2" type="stmt"/>
+        </file>
         <file name="fetch.js" path="/Users/heathercoraje/Documents/interview/tech-screen/carousel/src/app/utils/fetch.js">
           <metrics statements="22" coveredstatements="16" conditionals="13" coveredconditionals="9" methods="13" coveredmethods="8"/>
           <line num="5" count="1" type="stmt"/>
-          <line num="6" count="96" type="stmt"/>
+          <line num="6" count="88" type="stmt"/>
           <line num="11" count="6" type="cond" truecount="3" falsecount="1"/>
           <line num="12" count="0" type="stmt"/>
           <line num="13" count="0" type="stmt"/>
