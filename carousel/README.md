@@ -21,7 +21,7 @@ I would like to add the following
 * User can click/swipe to check other information of credit report(short term debt, credit limit, etc)
 * Integrate module for dynamic and fun animation effect for slides
 * Change background at certain interval
-* A link to download a pfd of current credit report
+* A link to download a PDF of current credit report
 * Add thorought tests for each components
 
 ## Getting Started
